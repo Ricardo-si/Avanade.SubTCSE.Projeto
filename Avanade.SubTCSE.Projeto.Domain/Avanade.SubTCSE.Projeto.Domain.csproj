@@ -1,14 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Aggregates\EmployeRole\Interfaces\Repository\" />
-    <Folder Include="Aggregates\EmployeRole\Interfaces\Services\" />
-    <Folder Include="Aggregates\EmployeRole\Validators\" />
-    <Folder Include="Aggregates\EmployeRole\Services\" />
-  </ItemGroup>
+	<ItemGroup>
+		<Folder Include="Aggregates\Employee\ValueObject\" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="FluentValidation" Version="10.2.3" />
+		<PackageReference Include="MongoDB.Driver" Version="2.12.4" />
+	</ItemGroup>
 
 </Project>
