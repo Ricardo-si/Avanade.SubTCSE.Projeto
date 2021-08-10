@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
@@ -16,6 +16,7 @@
 
   <ItemGroup>
 	<ProjectReference Include="..\Avanade.SubTCSE.Projeto.Application\Avanade.SubTCSE.Projeto.Application.csproj" />
+	<ProjectReference Include="..\Avanade.SubTCSE.Projeto.CrossCutting\Avanade.SubTCSE.Projeto.CrossCutting.csproj" />
   </ItemGroup>
 
 </Project>
